@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.child-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.logo img{
+    width: 45px;
+    height: 35px;
+    margin-top: 20px;
+}
+.work{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.icon{
+    display: inline-block;
+    margin-left: 800px;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.icon .people{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
