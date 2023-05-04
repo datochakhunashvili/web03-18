@@ -5,6 +5,7 @@
 }
 .container{
     width: 1400px;
+    height: 100%;
     margin: 0 auto;
     background-color: #ffffff;
 }
@@ -39,4 +40,36 @@
     width: 18px;
     height: 18px;
     vertical-align: middle;
+}
+input{
+    position: relative;
+    width: 90%;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 2%;
+    border-radius: 80px;
+    padding-left: 55px;
+ 
+}
+.serch-icon{
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    margin-left: -995px;
+    margin-top: 37px;
+}
+.filters-icon{
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    margin-left: -350px;
+    margin-top: 37px;
+}
+.filters-icon::after{
+    content: "";
+    width: 1px;
+    height: 45px;
+    background-color: black;
+    margin-left: 10px;
+    display: block;
 }
