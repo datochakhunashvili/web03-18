@@ -105,11 +105,16 @@ h6 p  span{
 .box span{
     margin-left: -50px;
 }
+.big-wrapper-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 .wrapper-container{
     width: 20%;
     border: 1px solid black;
     border-radius: 30px;
     margin-top: 50px;
+    margin-right: 35px;
 }
 .wrapper-img img{
     position: relative;
