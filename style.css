@@ -90,19 +90,83 @@ h6 p  span{
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
 }
-
 .arrow-down{
-    position: absolute;
     position: absolute;
     width: 25px;
     height: 25px;
-    margin-left: 80px;
-    margin-top: -34px;
+    margin-left: 1px;
+    margin-top: 8px;
 }
 .Talent .serch-icon{
-    margin-left: 283px;
+    margin-left: 213px;
+    margin-top: 5px;
 }
-.box span{
+.Talent span{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.Talent-item-hover img {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+.Talent-item-hover{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    position: absolute;
+    top: 44px;
+    margin-left: -56px;
+    opacity: 0;
+    z-index: 1;
+}
+.Talent-item-hover h6 {
+    font-size: 10px;
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: top;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.box:hover .Talent-item-hover{
+    opacity: 1;
+}
+.Talent-item-hover img{
+    width: 15px;
+    height: 15px;
+}
+.Talent-item-hover h6{
+    font-size: 10px;
+}
+.Talent-item-hover span{
+    font-size: 7px;
+}
+.Talent-box span::after{
+    content: "";
+    width: 200px;
+    height: 2px;
+    display: block;
+    background-color: black;
+    margin: 8px;
+    margin-left: -42px;
+}
+.Talent-box:hover{
+    background-color: white;
+    opacity: 0;
+}
+.Talent-box:hover{
+    background-color: #087DBF;
+    opacity: 1;
+}
+.Talent-box-1 span::after{
+    content: "";
+    width: 200px;
+    height: 2px;
+    display: block;
+    background-color: black;
+    margin: 8px;
     margin-left: -50px;
 }
 .big-wrapper-container{
@@ -163,3 +227,4 @@ h6 p  span{
     width: 15px;
     margin-left: -139px;
     margin-top: 28px;
+}    
