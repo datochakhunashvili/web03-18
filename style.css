@@ -119,6 +119,16 @@ h6 p  span{
     font-size: 13px;
     font-weight: bold;
 }
+.input-wrap-box:hover{
+    color: black;
+    background-color: #fffff;
+    opacity: 0;
+}
+.input-wrap-box:hover{
+    background-color: #087DBF;
+    color: #ffffff;
+    opacity: 1;
+}
 .price-range img{
     width: 80%;
     margin-left: 30px;
