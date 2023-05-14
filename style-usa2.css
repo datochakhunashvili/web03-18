@@ -47,26 +47,20 @@ header img{
     width: 100%;
     margin-top: 30px;
 }
-.wrapper-image-pexels img{
+.wrapper-image-usa-2 img{
     position: absolute;
     width: 100%;
-    z-index: 2;
-}
+    margin-top: 20px;
+    z-index: 1;
+} 
 .wrapper-image-rectangle img{
     position: absolute;
     width: 100%;
-    margin-top: 140px;
+    margin-top: 110px;
 }
-.wrapper-image-developer img{
-    position: absolute;
-    width: 100%;
-    padding: 10px;
-    margin-top: 125px;
-    z-index: 3;
-} 
 .box-info{
     border: 1px solid #efefef;
-    margin-top: 530px;
+    margin-top: 510px;
     padding: 20px 10px 30px;
     background-color: #efefef;
     border-bottom-left-radius: 20px;
@@ -76,11 +70,11 @@ header img{
     color: #505050;
     font-size: 15px;
     width: 1033px;
+    margin-top: 10px;
     font-size: 20px;
 }
-.typography img{
+.vacancies img{
     width: 100%;
     margin-top: 50px;
 }
 
-        
