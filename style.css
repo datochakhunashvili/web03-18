@@ -18,6 +18,7 @@ h6 p  span{
     height: 100%;
     margin: 0 auto;
     background-color: #ffffff;
+    padding-bottom: 100px;
 }
 .child-container{
     width: 80%;
@@ -61,6 +62,10 @@ h6 p  span{
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
 }
+.input :hover.input-wrap-wraper{
+    opacity: 1;
+    transition: all 0.6s;
+}
 .input-wrapper{
     display: flex;
 }
@@ -78,6 +83,83 @@ h6 p  span{
     height: 30px;
     margin-left: 679px;
     margin-top: -35px;
+}
+.input-wrap-wraper{
+    position: relative;
+    position: absolute;
+    width: 625px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 20px 10px;
+    background-color: white;
+    z-index: 1;
+    margin-left: 4%;
+    opacity: 0;
+    transition: all 0.6s;
+}
+.input-wrap-wraper span{
+    font-weight: bold;
+}
+.input-wrap-wraper-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.input-wrap-box{
+    height: 24px;
+    width: auto;
+    border: 1px solid #087DBF;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.price-range img{
+    width: 80%;
+    margin-left: 30px;
+}
+.ratings-star{
+    display: flex;
+}
+.ratings{
+    height: 24px;
+    width: auto;
+    border: 1px solid #087DBF;
+    border-radius: 13px;
+    padding: 7px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 4px;
+    font-size: 15px;
+}
+.ratings img{
+    width: 15px;
+}
+.location{
+    display: flex;
+}
+.Clear-filter{
+    display: flex;
+    position: absolute;
+    margin-left: 494px;
+    margin-top: -14px;
+    font-size: 12px;
+}
+.clear-filter-1{
+    position: absolute;
+    height: 24px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: -5px;
+    padding: 5px;
+    padding-bottom: 20px;
 }
 .box{
     position: relative;
@@ -121,6 +203,7 @@ h6 p  span{
     margin-left: -56px;
     opacity: 0;
     z-index: 1;
+    transition: all 0.6s;
 }
 .Talent-item-hover h6 {
     font-size: 10px;
